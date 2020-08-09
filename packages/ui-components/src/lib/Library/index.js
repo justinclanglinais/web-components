@@ -67,6 +67,7 @@ const searchInputStyles = {
 };
 
 const LibraryItemCards = styled.div`
+  background-color: red;
   margin: 0;
   width: 100%;
   height: calc(100% - 54px);

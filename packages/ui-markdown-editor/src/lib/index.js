@@ -174,6 +174,7 @@ export const MarkdownEditor = (props) => {
         showLinkModal={showLinkModal}
         setShowLinkModal={setShowLinkModal}
         activeButton={props.activeButton || BUTTON_ACTIVE}
+        
         /> }
       <Editable
         id="ap-rich-text-editor"

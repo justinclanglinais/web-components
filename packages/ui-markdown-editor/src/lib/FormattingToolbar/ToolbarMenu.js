@@ -12,12 +12,13 @@ const Menu = styled.div`
   align-content: space-evenly;
   justify-content: center;
   margin-bottom: 20px;
+  box-shadow: 0px 0px 15px 15px rgba(255,255,255,1);
   & > * {
     display: inline-block;
   }
   & > * + * {
     margin-left: 15px;
-  }
+  };
 `;
 
 const ToolbarMenu = React.forwardRef(

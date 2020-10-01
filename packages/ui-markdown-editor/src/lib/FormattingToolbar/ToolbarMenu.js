@@ -6,7 +6,7 @@ const Menu = styled.div`
   top: 0;
   width: 100%;
   background-color: #FFF;
-  padding: 15px;
+  padding: 15px 15px 5px 15px;
   z-index: 10;
   display: flex;
   align-content: space-evenly;
